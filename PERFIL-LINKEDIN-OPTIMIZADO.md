@@ -1,23 +1,24 @@
-# 👤 Perfil de LinkedIn Optimizado — AI-First & Analytics Engineering
-> Documento de copia y pega directa para actualizar tu perfil de LinkedIn (en Español e Inglés).
+# 👤 Perfil de LinkedIn Definitivo (Humanizado) — Eduardo Tejada Reyes
+
+> Textos listos para copiar y pegar en tu perfil de LinkedIn. Redactados en primera persona, con tono conversacional de trinchera técnica, sin clichés corporativos, sin em dashes (—) y sin listas mecánicas de IA.
 
 ---
 
-## 1. Titulares (Headlines)
+## 1. Titulares (Headline)
 
-### Opción A (Recomendada — Máximo Impacto Técnico & AI-First)
+### Opción 1: Directo y Profesional (Recomendada)
 ```text
-AI-Augmented Systems Engineer & Data Specialist | Python · SQL · dbt · Cloud | Semantic Layer for LLMs & MCP | MSc en Inteligencia Artificial (UNIR)
+Ingeniero de Sistemas | Data Analytics & AI | SQL Server · Python · dbt · Power BI | Maestría en IA (UNIR) · CIP 372629
 ```
 
-### Opción B (Enfoque Híbrido Datos + Negocio)
+### Opción 2: Enfoque en Sistemas de Datos para IA
 ```text
-Analytics & Data Engineer | Construyendo la Capa de Datos para Agentes de IA | Python · SQL Server · dbt · Power BI | MSc en IA (UNIR) · CIP 372629
+Analytics & Data Engineer | Modelado SQL, dbt y Sistemas de Datos para IA | Python · Power BI · Azure | MSc en IA (UNIR)
 ```
 
-### Versión en Inglés (Para tu perfil secundario en LinkedIn)
+### Opción en Inglés (Para tu perfil secundario en LinkedIn)
 ```text
-AI-Native Systems Engineer & Analytics Specialist | Python · SQL · dbt · Cloud | Semantic Layer for LLMs & MCP | MSc in Artificial Intelligence (UNIR)
+Systems Engineer | Analytics Engineering & Applied AI | SQL · Python · dbt · Azure | MSc in AI Candidate · CIP 372629
 ```
 
 ---
@@ -25,81 +26,75 @@ AI-Native Systems Engineer & Analytics Specialist | Python · SQL · dbt · Clou
 ## 2. Sección "Acerca de" (About)
 
 ### Versión en Español (Perfil Principal)
+
 ```text
-Soy Ingeniero de Sistemas Colegiado (CIP 372629) y candidato a Máster en Inteligencia Artificial (UNIR). Mi especialidad es el ciclo de vida del dato de misión crítica: desde la extracción, modelado dimensional y optimización SQL, hasta la construcción de la Capa Semántica que alimenta modelos predictivos y agentes de IA autónomos.
+Trabajo con datos donde un error no es un detalle menor: salud pública y telemetría minera.
 
-Me defino como un AI-Augmented Engineer: utilizo flujos de trabajo agénticos (MCP, LLMs en terminal y asistentes avanzados) para multiplicar mi velocidad de entrega x5, pero con el rigor de ingeniería de software para auditar cada query, garantizar cero alucinaciones métricas y blindar la seguridad en producción.
+En la Red Integrada de Salud Cajabamba paso el día en SQL Server lidiando con lo que los libros rara vez cuentan: millones de registros que llegan con formatos cruzados, duplicados silenciosos y tablas sin documentar. Mi trabajo es ordenar esa base, construir modelos analíticos limpios y asegurar que los tableros en Power BI que ve la dirección médica reflejen la realidad operativa de los centros de salud. Cuando hace falta, también programo herramientas en Laravel para que la captura de datos en el origen sea más ordenada y trazable.
 
-Experiencia técnica en entornos reales:
-1. Sector Salud (Red Integrada de Salud Cajabamba): Lidero la consolidación de millones de registros sanitarios en SQL Server, diseño de modelos tabulares en Power BI para indicadores estratégicos de gestión y desarrollo de módulos en PHP/Laravel para automatizar la captura de datos en puntos de atención.
-2. Sector Minero e Industrial (Piper Solutions): Desarrollé lógica backend en Python para el sistema de telemetría Downtimes, monitoreando paradas y eventos de maquinaria pesada en mineras internacionales (GoldFields, Veladero, Ambatovy) bajo infraestructura Microsoft Azure.
+Antes de esto, en Piper Solutions, programé en Python la lógica backend para el monitoreo de tiempos de parada de maquinaria pesada. Procesábamos eventos de sensores para operaciones mineras internacionales como GoldFields, Veladero y Ambatovy sobre Microsoft Azure. Si una consulta tardaba de más o un evento entraba fuera de orden, la guardia operativa se quedaba sin datos de mantenimiento. Ahí aprendí que la calidad del dato se cuida en la ingesta, no en el gráfico final.
 
-Stack Técnico & Herramientas:
-• Lenguajes & Frameworks: Python (FastAPI, Pandas, scripts de ingesta), SQL avanzado, PHP/Laravel, JavaScript.
-• Datos & Analytics: SQL Server, PostgreSQL, dbt Core (modelado dimensional Kimball, tests automáticos), Power BI (DAX avanzado), Excel analítico.
-• AI & Machine Learning: Arquitecturas RAG, Text-to-SQL, Servidores MCP (Model Context Protocol), frameworks de evaluación (Evals), modelos predictivos (XGBoost, Forecasting).
-• Cloud & DevOps: Microsoft Azure, Docker, Linux, Git.
-• Idiomas: Español (Nativo) | Inglés B2 (lectura y discusión técnica fluida).
+Actualmente curso la Maestría en Inteligencia Artificial en la UNIR. Utilizo herramientas y asistentes de IA todos los días para avanzar más rápido, pero reviso cada consulta y cada cálculo a fondo. Si conectas un modelo de lenguaje a una base de datos desordenada, el modelo te va a inventar respuestas con total seguridad. Por eso me interesa tanto el cruce entre la ingeniería de datos sólida (SQL a fondo, modelado dimensional, dbt) y las aplicaciones prácticas de IA (asistentes de consulta, servidores MCP y validaciones que eviten alucinaciones).
 
-Distinciones:
-• Primer puesto de promoción universitaria y Quinto superior (Universidad Privada del Norte).
+Me gradué con el primer puesto de promoción en Ingeniería de Sistemas en la UPN (colegiado CIP 372629) y manejo inglés B2 para leer documentación técnica y trabajar en equipos distribuidos.
 
-Abierto a desafíos como Senior Analytics Engineer, Data Engineer o Applied AI & Data Specialist en empresas con iniciativas AI-First y proyectos de alto impacto.
-
-Contacto: andrestejada8@gmail.com | linkedin.com/in/eduardo10tejada
-```
-
-### Versión en Inglés (Perfil Secundario para roles remotos en USD)
-```text
-I am a Licensed Systems Engineer and M.Sc. candidate in Artificial Intelligence (UNIR). I specialize in end-to-end data architectures: from complex SQL modeling and automated transformation to building the Semantic Layer that powers predictive models and autonomous AI agents.
-
-I work as an AI-Augmented Engineer: leveraging agentic workflows (MCP, terminal LLMs, automated testing) to build data solutions 5x faster, backed by rigorous software engineering principles to prevent metric hallucinations and ensure production-grade data integrity.
-
-Real-world domain experience:
-1. Healthcare (Cajabamba Integrated Health Network): Consolidating millions of public health records in SQL Server, building robust tabular models and Power BI executive dashboards, and developing full-stack Laravel apps for data capture traceability.
-2. Mining & Heavy Industry (Piper Solutions): Developed Python backend logic for industrial telemetry systems (Downtimes) monitoring heavy machinery at Tier-1 international mines (GoldFields, Veladero, Ambatovy) deployed on Microsoft Azure.
-
-Technical Core:
-• Languages & Engineering: Python (FastAPI, Pandas, ETL scripts), Advanced SQL, PHP/Laravel, JavaScript.
-• Data & Analytics Stack: SQL Server, PostgreSQL, dbt (Kimball dimensional modeling, automated tests), Power BI (Advanced DAX), Azure Cloud, Docker.
-• Applied AI & LLMOps: RAG architectures, Text-to-SQL pipelines, MCP (Model Context Protocol) servers, LLM Evals, predictive modeling (XGBoost, Time-Series Forecasting).
-• Education: Valedictorian / 1st in class (UPN) | M.Sc. in AI (in progress, UNIR).
-• Languages: Spanish (Native) | English (B2 - Fluent technical communication).
-
-Open to opportunities as Senior Analytics Engineer, Data Engineer, or Applied AI / Data Specialist with high-growth remote teams.
-
-Direct email: andrestejada8@gmail.com
+Si en tu equipo están organizando su arquitectura de datos, migrando a dbt o explorando cómo conectar asistentes de IA a sus bases sin romper métricas de negocio, me encantará conversar: andrestejada8@gmail.com
 ```
 
 ---
 
-## 3. Experiencias Laborales (Actualizadas con Enfoque de Impacto)
+### Versión en Inglés (Perfil Secundario para roles remotos internacionales)
 
-### Cargo 1: Data Analyst & Analytics Specialist | Red Integrada de Salud Cajabamba
-*(2025 – Actualidad | Cajamarca, Perú)*
 ```text
-• Consolidación, limpieza y modelado de grandes volúmenes de datos sanitarios en SQL Server, migrando procesos manuales a pipelines analíticos reproducibles.
-• Diseño de la arquitectura de reportería y dashboards dinámicos en Power BI para el comité de dirección médica, mejorando la visibilidad de indicadores de cobertura y abastecimiento.
-• Desarrollo de aplicaciones web internas en PHP/Laravel para estandarizar la ingesta y trazabilidad del registro de datos clínicos primarios.
-• Implementación de validaciones automáticas de calidad de datos, reduciendo drásticamente discrepancias en reportes institucionales.
+I work with data where mistakes carry real consequences: public health and heavy mining telemetry.
+
+At the Cajabamba Health Network in Peru, I spend my days in SQL Server dealing with the messy realities textbooks skip: millions of healthcare records arriving with inconsistent formats, silent duplicates, and missing documentation. My job is cleaning up that foundation, building reliable data models, and making sure our Power BI dashboards give medical directors accurate numbers for clinical decisions. When needed, I build custom web tools in PHP/Laravel so frontline health workers can record data cleanly at the source.
+
+Before healthcare, I was a backend developer at Piper Solutions writing Python services to track heavy machinery downtime at large-scale mines like GoldFields, Veladero, and Ambatovy on Microsoft Azure. If an ingestion query lagged or an event arrived out of order, plant supervisors were left without maintenance metrics. That taught me early on that data quality is won during ingestion, not inside a dashboard.
+
+Right now, I am pursuing an M.Sc. in Artificial Intelligence at UNIR. I use AI coding tools and agents every day to speed up my work, but I audit every query and calculation carefully. If you plug a language model directly into a messy database, it will hallucinate metrics with complete confidence. That is why I focus on the bridge between solid data fundamentals (advanced SQL, dbt, dimensional modeling) and practical AI systems (text-to-SQL agents, MCP servers, and evaluation checks that prevent hallucinations).
+
+I graduated top of my class in Systems Engineering (Licensed CIP 372629) and speak fluent technical English (B2).
+
+If your team is restructuring its data stack, adopting dbt, or looking to connect AI agents to internal databases without breaking business logic, feel free to reach out: andrestejada8@gmail.com
 ```
 
-### Cargo 2: Backend Developer / Industrial Data | Piper Solutions S.A.C
-*(2021 – 2023 | Remoto, Perú)*
+---
+
+## 3. Experiencias Laborales (Enfoque Práctico y Humano)
+
+### Rol 1: Analista de Datos | Red Integrada de Salud Cajabamba
+*(2025 – Actualidad | Cajamarca, Perú)*
+
 ```text
-• Desarrollo backend en Python para el procesamiento de eventos de telemetría y tiempos de parada operativa (downtimes) de maquinaria pesada en mineras internacionales (GoldFields, Veladero, Ambatovy).
-• Optimización de consultas SQL y flujos de ingesta de datos de telemetría bajo flujos continuos de eventos en Microsoft Azure.
-• Colaboración en el diseño de APIs REST para alimentar interfaces de monitoreo de operaciones en tiempo real para supervisores de planta.
+Responsable de la consolidación, calidad y visualización de la información sanitaria de la red:
+
+• Consolidé millones de registros clínicos en SQL Server provenientes de múltiples centros de salud, depurando inconsistencias y automatizando procesos que antes se hacían en hojas de cálculo manuales.
+• Diseñé modelos tabulares y dashboards en Power BI utilizados por la dirección médica para el seguimiento de metas de atención, cobertura de vacunas y abastecimiento.
+• Desarrollé módulos web internos en PHP/Laravel para estandarizar la captura de datos primarios en puntos de atención que no contaban con sistemas integrados.
+• Establecí revisiones periódicas de integridad de datos para detectar anomalías antes de que afectaran los reportes oficiales.
+```
+
+### Rol 2: Desarrollador Backend & Datos | Piper Solutions S.A.C
+*(2021 – 2023 | Remoto, Perú)*
+
+```text
+Desarrollo backend en Python para el producto Downtimes, enfocado en el monitoreo de tiempos de parada de maquinaria pesada en mineras internacionales (GoldFields, Veladero, Ambatovy):
+
+• Programé lógica de negocio en Python para clasificar y procesar eventos de telemetría de sensores en palas y camiones de extracción minera.
+• Optimicé consultas en bases de datos relacionales sobre Microsoft Azure, asegurando respuestas rápidas bajo flujos continuos de datos industriales.
+• Apoyé en la arquitectura y mantenimiento de APIs REST para alimentar las interfaces de monitoreo de los supervisores de guardia en mina.
 ```
 
 ---
 
 ## 4. Sección de Destacados (Featured)
 
-* **Tile 1 (El Repositorio de tu Comando de Carrera):**
+* **Destacado 1 (Tu Repositorio Central de Código & Estrategia):**
   * Título: `AI & Data Engineering Command Center (GitHub)`
-  * Descripción: `Arquitectura de datos para agentes de IA, roadmap técnico y herramientas de calidad.`
+  * Descripción: `Roadmap técnico de analítica, dbt, capa semántica para agentes de IA y herramientas de calidad.`
   * Enlace: `https://github.com/eduardotejada99/linkedin-command-center`
-* **Tile 2 (CV Oficial):**
-  * Título: `CV Oficial — Eduardo Tejada Reyes (Data & AI)`
-  * Enlace al PDF en Google Drive.
+
+* **Destacado 2 (Tu CV Actualizado):**
+  * Título: `CV Profesional — Eduardo Tejada Reyes (Ingeniería de Sistemas · Data & AI)`
+  * Enlace al archivo PDF en Google Drive.
