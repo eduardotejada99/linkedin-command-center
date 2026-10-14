@@ -1,113 +1,114 @@
-# 🗓️ Plan de Ejecución — Semana 1
+# 🗓️ Plan de Publicación — Semana 1 (AI-First & High Authority)
 
-**Objetivo:** Activar tu presencia técnica en LinkedIn, posicionar tu experiencia dual (Salud Pública + Minería/Telemetría) y comenzar la prospección hacia roles de Analytics & Data Engineering.
+**Objetivo:** Establecer posicionamiento como **AI-Augmented Engineer**, diferenciándote de los "vibe coders" y de los analistas tradicionales, demostrando experiencia en datos críticos (Salud y Minería) y maestría técnica en IA.
 
 ---
 
-## 📝 Las 3 Publicaciones de la Semana
+## 📝 Las 3 Publicaciones Listas para Publicar
 
-### Publicación 1 (Lunes / Martes): Lección de Datos en Salud Pública
-* **Fórmula de Gancho:** *Number Reveal / Lección de Trinchera*
-* **Pilar:** Ingeniería y Análisis de Datos en el Mundo Real
-* **Objetivo:** Demostrar rigor técnico, manejo de volumen y resolución de problemas bajo presión.
+### Publicación 1 (Martes 8:00 AM): Por qué el "Vibe Coding" colapsa en datos de producción
+* **Fórmula de Gancho:** *Contrarian Take / Hot Topic 2026*
+* **Tema:** Vibe Coding vs. AI-Augmented Engineering
+* **Objetivo:** Abrir debate de alto nivel, atraer a CTOs y Data Leads que están lidiando con código roto generado por IA.
 
 ```text
-70% del tiempo de un analista no se va creando gráficos bonitos. Se va limpiando inconsistencias que nadie documentó.
+El "vibe coding" es divertido para hacer prototipos en un fin de semana.
 
-Cuando empecé a consolidar millones de registros de salud pública en SQL Server, descubrí algo rápido:
+En datos de misión crítica, es una receta para el desastre.
 
-La teoría te enseña a hacer JOINs limpios.
-La realidad te entrega campos nulos donde no debería haberlos, formatos de fecha cruzados y duplicados silenciosos.
+En los últimos meses he visto a muchos programar tirando prompts a ciegas sin mirar el código que la IA genera.
 
-Si armas un reporte sobre esa base, el dashboard miente. Y en salud, las decisiones no admiten márgenes de error inventados.
+El problema:
+A un agente de IA no le importa si tu base de datos tiene duplicados silenciosos.
+No sabe si tu JOIN generó un producto cartesiano que triplicó las cifras de ventas.
+Y ciertamente no le importa si una consulta bloquea el servidor de producción.
 
-Mi regla desde entonces:
-1. Validar integridad antes de modelar una sola medida en DAX.
-2. Escribir consultas de auditoría automáticas que alerten anomalías.
-3. Crear tablas intermedias de staging para no sobrecargar el motor transaccional.
+En mi trabajo consolidando registros de salud pública y en telemetría de maquinaria minera, una métrica alucinada no es un bug visual: cuesta dinero real o decisiones sanitarias equivocadas.
 
-La analítica útil no empieza en Power BI. Empieza garantizando que la fuente dice la verdad.
+La verdadera ventaja no es ser un "vibe coder" que copia y pega sin entender.
+Es ser un ingeniero AI-Augmented:
 
-¿En tu equipo cómo gestionan la auditoría de calidad de datos antes de pasar a producción?
+- Usar agentes para acelerar la sintaxis y el boilerplate x5.
+- Pero auditar cada consulta con rigor matemático y planes de ejecución (EXPLAIN).
+- Blindar las tablas con tests automatizados y capas semánticas que la IA no pueda romper.
+
+La IA escribe el código rápido.
+El criterio de ingeniería garantiza que funcione en producción.
+
+¿En tu equipo cómo están controlando la calidad del código generado por IA?
 ```
 
 ---
 
-### Publicación 2 (Miércoles / Jueves): Telemetría Minera y Arquitectura de Datos
-* **Fórmula de Gancho:** *Before / After & Costo Técnico*
-* **Pilar:** Telemetría Industrial, Python y Escalabilidad
-* **Objetivo:** Demostrar experiencia en industrias pesadas (minería internacional) y backend en Python.
+### Publicación 2 (Jueves 8:00 AM): Cómo evitar que un LLM alucine tus métricas (La Capa Semántica)
+* **Fórmula de Gancho:** *Mechanism Reveal / Education*
+* **Tema:** Text-to-SQL en la vida real y dbt Semantic Layer
+* **Objetivo:** Mostrar dominio del Modern Data Stack aplicado a Inteligencia Artificial.
 
 ```text
-En minería, cada minuto de una pala detenida cuesta miles de dólares.
+Conectar ChatGPT directamente a una base de datos de tu empresa es el camino más rápido para obtener métricas inventadas.
 
-Durante mi trabajo desarrollando backend en Python para sistemas de telemetría de paradas (downtimes) en mineras como GoldFields y Veladero, aprendí una lección crítica sobre eventos en tiempo real:
+La mayoría cree que Text-to-SQL es solo pasarle el schema de la base de datos al modelo y pedirle un query.
 
-Un cálculo mal optimizado en la ingesta colapsa la reportería de toda la guardia operativa.
+Lo que ocurre en la práctica:
+- El usuario pregunta por "clientes activos".
+- El LLM asume su propia definición de "activo" y filtra por fecha de creación.
+- El departamento de finanzas usa otra definición.
+- Tienes dos números distintos en la misma reunión de directorio.
 
-No podíamos darnos el lujo de recalcular históricos completos cada 5 minutos. Tuvimos que:
+La solución que adoptan los equipos AI-First modernos no es cambiar de modelo.
+Es construir una Capa Semántica (Semantic Layer con herramientas como dbt o MetricFlow).
 
-- Particionar las consultas por ventanas de tiempo cerradas.
-- Mover el procesamiento pesado a tareas asíncronas en la nube.
-- Garantizar que los estados de cada máquina fueran atómicos y trazables.
+En lugar de dejar que el LLM consulte tablas crudas:
+1. Defines la métrica "cliente_activo" una sola vez en código versionado.
+2. Expones esa métrica a través de un servidor agéntico (como MCP).
+3. El agente de IA no inventa SQL: consume la métrica validada con cero margen de alucinación.
 
-Muchos ven a Python solo para scripts simples. En entornos industriales, Python es el pegamento que transforma telemetría cruda en decisiones de mantenimiento preventivo.
+La IA no necesita adivinar la lógica de tu negocio. Necesita que tu ingeniería de datos se la entregue estructurada.
 
-¿Trabajas con flujos de datos continuos o prefieres procesos batch tradicionales?
+¿Ya están probando asistentes de lenguaje natural sobre sus bases de datos internas?
 ```
 
 ---
 
-### Publicación 3 (Viernes): El Mito de la Inteligencia Artificial
-* **Fórmula de Gancho:** *Contrarian Take / Hot Take*
-* **Pilar:** Inteligencia Artificial Aplicada vs. Hype (Apalancamiento de Maestría)
-* **Objetivo:** Posicionarte como profesional sensato con criterio de negocio, no un vendedor de humo.
+### Publicación 3 (Viernes 8:30 AM): Lo que la telemetría en minería me enseñó sobre calidad de datos
+* **Fórmula de Gancho:** *Before / After & Costo Operativo*
+* **Tema:** Experiencia real en Piper Solutions (GoldFields, Veladero, Ambatovy)
+* **Objetivo:** Credibilidad irrefutable de ingeniería pesada y manejo de grandes flujos de datos.
 
 ```text
-La mayoría de empresas no necesitan un modelo de Machine Learning de 100 millones de parámetros.
+En una mina a tajo abierto, cada minuto que una pala hidráulica pasa detenida cuesta miles de dólares.
 
-Necesitan resolver primero por qué sus datos de ventas no coinciden con los de almacén.
+Cuando trabajé desarrollando backend en Python para sistemas de telemetría de paradas operativas (downtimes) en mineras internacionales, me grabé una regla a fuego:
 
-Actualmente curso la Maestría en Inteligencia Artificial y veo a diario arquitecturas fascinantes de redes neuronales y agentes autónomos.
+La calidad de un dato se mide en el momento de la ingesta, no en el dashboard final.
 
-Pero en la práctica empresarial, el 80% de los problemas se resuelven con:
-- Un modelo de datos relacional bien estructurado.
-- Métricas claras que todo el comité entienda igual.
-- Consultas SQL optimizadas con índices adecuados.
+Teníamos flujos continuos de sensores enviando estados de maquinaria pesada.
+Si un proceso de ingesta fallaba o registraba un evento desfasado, los reportes de mantenimiento preventivo quedaban inutilizables para la guardia de operaciones.
 
-La IA no es magia que arregla datos rotos. Si alimentas un modelo predictivo con datos sucios, solo obtendrás malas decisiones a mayor velocidad.
+Tuvimos que diseñar pipelines con tres principios:
+1. Estados atómicos: nunca asumir que un sensor envió el paquete en orden cronológico perfecto.
+2. Procesamiento asíncrono en la nube para que picos de tráfico no congelaran la base de datos.
+3. Consultas optimizadas con particiones temporales estrictas.
 
-Primero construye la base del dato. Luego automatiza con inteligencia.
+Hoy veo a muchos equipos queriendo aplicar modelos predictivos complejos sobre datos que ni siquiera llegan limpios de origen.
 
-¿Has visto proyectos de IA fallar por descuidar la calidad de la data de origen?
+No hay modelo de Machine Learning que compense una ingesta defectuosa.
+Primero resuelve la tubería. Luego construye la inteligencia.
+
+¿Cuál ha sido el entorno más exigente en tiempo real donde te ha tocado procesar datos?
 ```
 
 ---
 
-## 🎯 Lista Objetivo de Cuentas para Networking (10 Perfiles / Empresas)
+## 🎯 Plan de Acción de Networking (15 minutos al día)
 
-Dedica 15 minutos al día a comentar con `li-comment` en publicaciones de estos sectores:
+Usa la skill `li-comment` para comentar en posts de líderes técnicos en estos 3 nichos:
 
-1. **HealthTech Regional:**
-   - Líderes de datos en **Auna / Oncosalud** (Perú/Colombia).
-   - Equipos de analítica en **Rimac Seguros**.
-   - Startups de salud digital (**Buk Health, Clara, Examedi**).
-
-2. **Mining & Industrial Tech:**
-   - Líderes técnicos en proveedores de software para minería (**Datamine, Hexagon Mining, RPMGlobal, MS4M, Piper Solutions**).
-   - Superintendentes o Analistas Senior de TI en mineras (**Antamina, Cerro Verde, Gold Fields, Las Bambas**).
-
-3. **Analytics Engineering / Tech Global (Remoto en USD):**
-   - Head of Data y Data Leads en scaleups latinoamericanas (**Kushki, Addi, Rappi, Clip, Mercado Libre**).
-   - Consultoras especializadas en Modern Data Stack (dbt, Snowflake, BigQuery).
-
----
-
-## ⚡ Checklist de la Semana
-
-- [ ] Publicar Post 1 (Martes 8:00 AM hora Perú).
-- [ ] Dejar 5 comentarios con `li-comment` en posts de referentes del sector.
-- [ ] Publicar Post 2 (Jueves 8:00 AM).
-- [ ] Enviar 3 notas de conexión con `li-dm` a ingenieros o líderes de empresas target.
-- [ ] Publicar Post 3 (Viernes 8:30 AM).
-- [ ] Registrar 4 horas de práctica con dbt y SQL avanzado en tu proyecto personal.
+| Día | Acción | Herramienta |
+| :--- | :--- | :--- |
+| **Lunes** | Dejar 3 comentarios técnicos en publicaciones sobre dbt o Modern Data Stack | `li-comment` |
+| **Martes** | Publicar Post 1 + Responder cada comentario recibido en la primera hora | `post-writer` + `li-reply` |
+| **Miércoles** | Enviar 2 notas de conexión a Data Leads de empresas target | `li-dm` |
+| **Jueves** | Publicar Post 2 + Dejar 3 comentarios en posts sobre IA aplicada | `post-formatter` + `li-comment` |
+| **Viernes** | Publicar Post 3 + Triaje de mensajes entrantes | `li-inbox` |

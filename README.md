@@ -1,69 +1,48 @@
-# 🚀 LinkedIn Command Center & Career Growth Hub
+# 🚀 LinkedIn Command Center & AI-First Career Hub
 
-> Sistema integral de posicionamiento profesional, creación de contenido técnico de alta autoridad y roadmap de preparación hacia roles de **Senior Data Analyst**, **Analytics Engineer** y **Applied AI Specialist**.
+> Centro de control integral para posicionamiento profesional, automatización de contenidos en LinkedIn y roadmap técnico hacia roles de **Senior Analytics Engineer** y **Applied AI Specialist**.
 
 **Propietario:** Eduardo Tejada Reyes  
 **Credenciales:** Ingeniero de Sistemas Colegiado (CIP: 372629) | 1er Puesto de Promoción (UPN) | Maestría en Inteligencia Artificial (UNIR - En curso)  
-**Enfoque:** Ciclo de vida del dato (Python, SQL Server, PostgreSQL, Power BI, Azure) y Machine Learning Aplicado a Negocio.
+**Enfoque:** Arquitectura de datos de misión crítica (Python, SQL Server, PostgreSQL, dbt, Azure) y Sistemas de Datos AI-First (Semantic Layers, Text-to-SQL, MCP, LLM Evals).
 
 ---
 
 ## 🗂️ Arquitectura del Repositorio
 
-| Archivo / Carpeta | Descripción |
+| Archivo | Propósito |
 | :--- | :--- |
-| **[`LINKEDIN-PLAYBOOK.md`](./LINKEDIN-PLAYBOOK.md)** | Manual operativo con toda la suite de skills y comandos para interactuar con agentes de IA. |
-| **[`ROADMAP-CARRERA.md`](./ROADMAP-CARRERA.md)** | Plan técnico paso a paso (Modern Data Stack, dbt, SQL avanzado, ML de negocio) y estrategia de caza de empleo. |
-| **[`SEMANA-1-PLAN.md`](./SEMANA-1-PLAN.md)** | Plan de acción semanal con las 3 publicaciones redactadas y listas para publicar, más la lista objetivo de networking. |
-| **[`voice.md`](./voice.md)** | Calibración de voz y estilo personal (técnico, riguroso, pragmático, sin rodeos ni slop de IA). |
-| **[`about-me.md`](./about-me.md)** | Perfil profesional, pilares temáticos, propuesta de valor y audiencia objetivo. |
-| **[`tools/`](./tools/)** | Herramientas autónomas en Python ejecutables en local sin dependencias externas. |
+| **[`CONTEXTO-MAESTRO.md`](./CONTEXTO-MAESTRO.md)** | **Single Source of Truth:** Lee este archivo al iniciar cualquier conversación con un agente de IA para tener 100% del contexto sin repetir nada. |
+| **[`PERFIL-LINKEDIN-OPTIMIZADO.md`](./PERFIL-LINKEDIN-OPTIMIZADO.md)** | Textos definitivos de copia y pega para tu LinkedIn (Titulares en ES/EN, Acerca de en ES/EN, Experiencias y Destacados). |
+| **[`ROADMAP-CARRERA.md`](./ROADMAP-CARRERA.md)** | Ruta técnica 2026: Modern Data Stack, dbt Semantic Layer, agentes Text-to-SQL, MCP y estrategia de empleo. |
+| **[`SEMANA-1-PLAN.md`](./SEMANA-1-PLAN.md)** | Plan de publicación semanal: 3 publicaciones listas (Vibe coding vs Ingeniería, Capa Semántica y Telemetría minera) + targets de networking. |
+| **[`LINKEDIN-PLAYBOOK.md`](./LINKEDIN-PLAYBOOK.md)** | Catálogo y manual de uso de las skills de IA (`post-writer`, `li-plan`, `li-comment`, `li-dm`, `li-human`). |
+| **[`voice.md`](./voice.md)** & **[`about-me.md`](./about-me.md)** | Archivos de calibración de voz y pilares temáticos para agentes generadores de contenido. |
+| **[`tools/`](./tools/)** | Scripts offline en Python (`detect.py`, `humanize.py`, `slop.json` y `hooks.json` con 21 fórmulas de ganchos). |
 
 ---
 
 ## 🛠️ Herramientas CLI Incluidas (`tools/`)
 
-Este repositorio incluye herramientas offline en Python (estándar library, sin `pip install` necesario) que puedes ejecutar desde cualquier terminal:
-
-### 1. Limpiador y Detector Anti-IA (`humanize.py` y `detect.py`)
-Elimina marcas mecánicas de IA (caracteres invisibles Unicode, *em-dashes*, palabras cliché del diccionario `slop.json`) y calcula una puntuación de detección de 5 factores:
+Herramientas estándar sin librerías externas que puedes ejecutar en cualquier terminal (Windows, Linux, Mac):
 
 ```bash
-# Limpiar un borrador y ver el reporte de cambios
+# 1. Limpiar un borrador eliminando caracteres invisibles y em dashes
 python tools/humanize.py mi_post.txt --report
 
-# Evaluar el puntaje de detección (0 a 100)
+# 2. Evaluar el score de detección de IA (0 a 100)
 python tools/detect.py mi_post.txt
 
-# Comparar un antes y después
+# 3. Comparar un antes y después
 python tools/detect.py antes.txt despues.txt
 ```
 
-### 2. Base de Datos de 21 Fórmulas de Ganchos (`hooks.json`)
-Catálogo estructurado con 21 fórmulas probadas de apertura de alta retención (*Contrarian Take, Number Reveal, Mistake Confession, Before/After, etc.*), con plantillas y trampas a evitar.
-
 ---
 
-## 📋 Flujo de Trabajo Semanal Recomendado
+## 🌐 Cómo usar este repositorio en cualquier IA
 
-```mermaid
-graph TD
-    A[Lunes: Revisar plan semanal en SEMANA-1-PLAN.md] --> B[Martes: Publicar Post 1 + 5 Comentarios con li-comment]
-    B --> C[Miércoles: Upskilling técnico en dbt / SQL]
-    C --> D[Jueves: Publicar Post 2 + 3 Conexiones con li-dm]
-    D --> E[Viernes: Publicar Post 3 + Responder comentarios con li-reply]
-    E --> F[Fin de semana: Revisar métricas y generar plan de la siguiente semana]
-```
+Cuando inicies una nueva conversación en **Antigravity IDE**, **Claude Code**, **ChatGPT** o cualquier otro asistente, simplemente dile:
 
----
+> *"Por favor lee el archivo `CONTEXTO-MAESTRO.md` de mi repositorio `https://github.com/eduardotejada99/linkedin-command-center` para conocer mi perfil profesional, voz y objetivos antes de empezar."*
 
-## 🌐 Acceso desde Cualquier Dispositivo
-
-Para clonar y trabajar con este centro de comando en cualquier máquina:
-
-```bash
-git clone https://github.com/eduardotejada99/linkedin-command-center.git
-cd linkedin-command-center
-```
-
-Las instrucciones y perfiles son compatibles tanto con Antigravity IDE como con Claude Code, Cursor o cualquier terminal estándar.
+El agente absorberá instantáneamente todo tu contexto sin necesidad de que vuelvas a explicar tu CV ni tu trayectoria.
