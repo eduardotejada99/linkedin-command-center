@@ -1,24 +1,24 @@
-# 👤 Perfil de LinkedIn Definitivo (Humanizado) — Eduardo Tejada Reyes
+# 👤 Perfil de LinkedIn Optimizado (Enfoque Técnico & Arquitectura) — Eduardo Tejada Reyes
 
-> Textos listos para copiar y pegar en tu perfil de LinkedIn. Redactados en primera persona, con tono conversacional de trinchera técnica, sin clichés corporativos, sin em dashes (—) y sin listas mecánicas de IA.
+> Textos listos para copiar y pegar en tu perfil de LinkedIn. Diseñados para proyectar autoridad técnica senior en Analytics Engineering y Sistemas de Datos para IA, sin anécdotas excesivas, sin listas mecánicas de IA y sin em dashes.
 
 ---
 
 ## 1. Titulares (Headline)
 
-### Opción 1: Directo y Profesional (Recomendada)
+### Opción 1: Enfoque de Ingeniería de Datos & Arquitectura (Recomendada)
 ```text
-Ingeniero de Sistemas | Data Analytics & AI | SQL Server · Python · dbt · Power BI | Maestría en IA (UNIR) · CIP 372629
+Ingeniero de Sistemas | Analytics Engineering & Data Architecture | SQL Server · Python · dbt · Power BI | MSc en IA (UNIR) · CIP 372629
 ```
 
-### Opción 2: Enfoque en Sistemas de Datos para IA
+### Opción 2: Enfoque AI-First & Sistemas Agénticos
 ```text
-Analytics & Data Engineer | Modelado SQL, dbt y Sistemas de Datos para IA | Python · Power BI · Azure | MSc en IA (UNIR)
+Senior Analytics Engineer & Applied AI | dbt · Python · SQL · Azure | Semantic Layer for LLMs & MCP | CIP 372629
 ```
 
 ### Opción en Inglés (Para tu perfil secundario en LinkedIn)
 ```text
-Systems Engineer | Analytics Engineering & Applied AI | SQL · Python · dbt · Azure | MSc in AI Candidate · CIP 372629
+Systems Engineer | Data Architecture & Analytics Engineering | Python · SQL · dbt · Cloud | MSc in AI Candidate · CIP 372629
 ```
 
 ---
@@ -28,17 +28,19 @@ Systems Engineer | Analytics Engineering & Applied AI | SQL · Python · dbt · 
 ### Versión en Español (Perfil Principal)
 
 ```text
-Trabajo con datos donde un error no es un detalle menor: salud pública y telemetría minera.
+Ingeniero de Sistemas Colegiado (CIP 372629) especializado en arquitectura de datos, Analytics Engineering y sistemas aplicados de Inteligencia Artificial. Mi trabajo se centra en el ciclo completo de la información: desde el modelado relacional y la optimización de motores SQL, hasta la construcción de capas semánticas que alimentan tableros analíticos y agentes de lenguaje natural.
 
-En la Red Integrada de Salud Cajabamba paso el día en SQL Server lidiando con lo que los libros rara vez cuentan: millones de registros que llegan con formatos cruzados, duplicados silenciosos y tablas sin documentar. Mi trabajo es ordenar esa base, construir modelos analíticos limpios y asegurar que los tableros en Power BI que ve la dirección médica reflejen la realidad operativa de los centros de salud. Cuando hace falta, también programo herramientas en Laravel para que la captura de datos en el origen sea más ordenada y trazable.
+He diseñado e implementado soluciones de datos en entornos de alta exigencia técnica:
 
-Antes de esto, en Piper Solutions, programé en Python la lógica backend para el monitoreo de tiempos de parada de maquinaria pesada. Procesábamos eventos de sensores para operaciones mineras internacionales como GoldFields, Veladero y Ambatovy sobre Microsoft Azure. Si una consulta tardaba de más o un evento entraba fuera de orden, la guardia operativa se quedaba sin datos de mantenimiento. Ahí aprendí que la calidad del dato se cuida en la ingesta, no en el gráfico final.
+- Analítica e integración de datos sanitarios (Red Integrada de Salud): Modelado dimensional y consolidación de bases transaccionales en SQL Server, diseño de modelos tabulares en Power BI y desarrollo de servicios web en PHP/Laravel para estandarizar la ingesta y trazabilidad de registros clínicos masivos.
+- Telemetría industrial y eventos en tiempo real (Piper Solutions): Desarrollo backend en Python sobre Microsoft Azure para el procesamiento de telemetría de maquinaria pesada en mineras internacionales (GoldFields, Veladero, Ambatovy). Enfoque en particionamiento de consultas, procesamiento asíncrono y reducción de latencia en flujos continuos de eventos.
 
-Actualmente curso la Maestría en Inteligencia Artificial en la UNIR. Utilizo herramientas y asistentes de IA todos los días para avanzar más rápido, pero reviso cada consulta y cada cálculo a fondo. Si conectas un modelo de lenguaje a una base de datos desordenada, el modelo te va a inventar respuestas con total seguridad. Por eso me interesa tanto el cruce entre la ingeniería de datos sólida (SQL a fondo, modelado dimensional, dbt) y las aplicaciones prácticas de IA (asistentes de consulta, servidores MCP y validaciones que eviten alucinaciones).
+Actualmente curso la Maestría en Inteligencia Artificial en la UNIR. Utilizo herramientas agénticas y modelos de lenguaje para acelerar el desarrollo diario, pero mantengo el foco en el rigor de ingeniería: auditoría de consultas con planes de ejecución, linaje de datos y pruebas automatizadas de integridad con dbt. Me especializo en resolver el principal desafío de la IA empresarial: evitar que los agentes alucinen métricas, conectándolos a bases estructuradas mediante capas semánticas y protocolos abiertos como MCP (Model Context Protocol).
 
-Me gradué con el primer puesto de promoción en Ingeniería de Sistemas en la UPN (colegiado CIP 372629) y manejo inglés B2 para leer documentación técnica y trabajar en equipos distribuidos.
+Graduado con el primer puesto de promoción y quinto superior en la Universidad Privada del Norte. Cuento con inglés B2 para lectura de documentación técnica, análisis de papers y colaboración en equipos de ingeniería distribuidos.
 
-Si en tu equipo están organizando su arquitectura de datos, migrando a dbt o explorando cómo conectar asistentes de IA a sus bases sin romper métricas de negocio, me encantará conversar: andrestejada8@gmail.com
+Abierto a conversar sobre oportunidades como Senior Analytics Engineer, Data Engineer o Applied AI Specialist.
+Contacto directo: andrestejada8@gmail.com
 ```
 
 ---
@@ -46,44 +48,46 @@ Si en tu equipo están organizando su arquitectura de datos, migrando a dbt o ex
 ### Versión en Inglés (Perfil Secundario para roles remotos internacionales)
 
 ```text
-I work with data where mistakes carry real consequences: public health and heavy mining telemetry.
+Licensed Systems Engineer (CIP 372629) specializing in Data Architecture, Analytics Engineering, and Applied Artificial Intelligence. My work centers on the end-to-end data lifecycle: from relational modeling and query optimization to designing semantic layers that power both executive dashboards and natural language AI agents.
 
-At the Cajabamba Health Network in Peru, I spend my days in SQL Server dealing with the messy realities textbooks skip: millions of healthcare records arriving with inconsistent formats, silent duplicates, and missing documentation. My job is cleaning up that foundation, building reliable data models, and making sure our Power BI dashboards give medical directors accurate numbers for clinical decisions. When needed, I build custom web tools in PHP/Laravel so frontline health workers can record data cleanly at the source.
+I have engineered data solutions across mission-critical domains:
 
-Before healthcare, I was a backend developer at Piper Solutions writing Python services to track heavy machinery downtime at large-scale mines like GoldFields, Veladero, and Ambatovy on Microsoft Azure. If an ingestion query lagged or an event arrived out of order, plant supervisors were left without maintenance metrics. That taught me early on that data quality is won during ingestion, not inside a dashboard.
+- Healthcare Data Integration & Analytics (Integrated Health Network): Dimensional modeling and transactional database consolidation in SQL Server, tabular data modeling in Power BI, and PHP/Laravel web services to standardize ingestion and traceability across millions of medical records.
+- Industrial Telemetry & Real-Time Event Processing (Piper Solutions): Python backend development on Microsoft Azure processing live telemetry for heavy mining machinery at Tier-1 international operations (GoldFields, Veladero, Ambatovy). Focused on query partitioning, asynchronous queue processing, and latency reduction under continuous event streams.
 
-Right now, I am pursuing an M.Sc. in Artificial Intelligence at UNIR. I use AI coding tools and agents every day to speed up my work, but I audit every query and calculation carefully. If you plug a language model directly into a messy database, it will hallucinate metrics with complete confidence. That is why I focus on the bridge between solid data fundamentals (advanced SQL, dbt, dimensional modeling) and practical AI systems (text-to-SQL agents, MCP servers, and evaluation checks that prevent hallucinations).
+Currently pursuing an M.Sc. in Artificial Intelligence at UNIR. I integrate agentic developer workflows to accelerate delivery, while maintaining strict software engineering discipline: query plan optimization (EXPLAIN), data lineage, and automated testing with dbt. My focus is solving enterprise AI's core challenge: preventing metric hallucinations by connecting LLMs to structured data via semantic layers and open standards like MCP (Model Context Protocol).
 
-I graduated top of my class in Systems Engineering (Licensed CIP 372629) and speak fluent technical English (B2).
+Valedictorian and top of class in Systems Engineering at Universidad Privada del Norte. Fluent in technical English (B2) for reading research literature, documentation, and collaborating with distributed engineering teams.
 
-If your team is restructuring its data stack, adopting dbt, or looking to connect AI agents to internal databases without breaking business logic, feel free to reach out: andrestejada8@gmail.com
+Open to conversations regarding Senior Analytics Engineer, Data Engineer, or Applied AI Specialist roles.
+Direct contact: andrestejada8@gmail.com
 ```
 
 ---
 
-## 3. Experiencias Laborales (Enfoque Práctico y Humano)
+## 3. Experiencias Laborales (Enfoque Técnico y de Arquitectura)
 
-### Rol 1: Analista de Datos | Red Integrada de Salud Cajabamba
+### Rol 1: Analista de Datos & Especialista en Analítica | Red Integrada de Salud Cajabamba
 *(2025 – Actualidad | Cajamarca, Perú)*
 
 ```text
-Responsable de la consolidación, calidad y visualización de la información sanitaria de la red:
+Liderazgo técnico en modelado, gobierno y visualización de datos sanitarios a nivel de red:
 
-• Consolidé millones de registros clínicos en SQL Server provenientes de múltiples centros de salud, depurando inconsistencias y automatizando procesos que antes se hacían en hojas de cálculo manuales.
-• Diseñé modelos tabulares y dashboards en Power BI utilizados por la dirección médica para el seguimiento de metas de atención, cobertura de vacunas y abastecimiento.
-• Desarrollé módulos web internos en PHP/Laravel para estandarizar la captura de datos primarios en puntos de atención que no contaban con sistemas integrados.
-• Establecí revisiones periódicas de integridad de datos para detectar anomalías antes de que afectaran los reportes oficiales.
+• Consolidación de bases de datos relacionales en SQL Server a partir de múltiples fuentes transaccionales, implementando staging intermedio y validaciones automáticas de integridad.
+• Diseño de modelos dimensionales y tableros de control en Power BI para el comité de dirección médica, asegurando consistencia en indicadores de cobertura, rendimiento y epidemiología.
+• Desarrollo de aplicaciones y APIs internas en PHP/Laravel para estandarizar la captura y trazabilidad de registros clínicos en puntos de atención.
+• Optimización de consultas complejas y estructuras de almacenamiento para reducir tiempos de procesamiento en reportes institucionales periódicos.
 ```
 
-### Rol 2: Desarrollador Backend & Datos | Piper Solutions S.A.C
+### Rol 2: Ingeniero de Datos Backend / Telemetría Industrial | Piper Solutions S.A.C
 *(2021 – 2023 | Remoto, Perú)*
 
 ```text
-Desarrollo backend en Python para el producto Downtimes, enfocado en el monitoreo de tiempos de parada de maquinaria pesada en mineras internacionales (GoldFields, Veladero, Ambatovy):
+Desarrollo backend en Python para el sistema de telemetría operativa Downtimes, monitoreando maquinaria pesada en operaciones mineras internacionales (GoldFields, Veladero, Ambatovy):
 
-• Programé lógica de negocio en Python para clasificar y procesar eventos de telemetría de sensores en palas y camiones de extracción minera.
-• Optimicé consultas en bases de datos relacionales sobre Microsoft Azure, asegurando respuestas rápidas bajo flujos continuos de datos industriales.
-• Apoyé en la arquitectura y mantenimiento de APIs REST para alimentar las interfaces de monitoreo de los supervisores de guardia en mina.
+• Implementación de lógica de cálculo y procesamiento en Python para eventos continuos de sensores en palas y camiones de extracción minera.
+• Optimización de consultas SQL y flujos de ingesta en Microsoft Azure, garantizando integridad y baja latencia bajo tráfico continuo de eventos.
+• Diseño y consumo de APIs REST para alimentar tableros de control operativo utilizados por las guardias de supervisión en mina.
 ```
 
 ---
